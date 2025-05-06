@@ -1,18 +1,21 @@
-'''def add(a, b):
+def add(a, b):
     return a + b
 
 
 def subtract(a, b):
     # TODO: implement this
-    pass
-
+    return a-b
 
 def multiply(a, b):
     # TODO: implement this
-    pass
+    return a * b
 
 
 def divide(a, b):
     # TODO: implement this (don't forget to handle division by zero)
-    pass
-'''
+    if b == 0 :
+        return 'Error. Cannot divide by 0'
+    else:
+        return a / b
+
+
